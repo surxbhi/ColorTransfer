@@ -97,6 +97,6 @@ def color_transfer():
         new_source = cv2.cvtColor(source_gray,cv2.COLOR_LAB2BGR)
         # Saving image
         print('saving image ' + str(i))
-        cv2.imwrite('/Users/sur/OneDrive/OneDrive - Nanyang Technological University/COLLEGE/Y3/Y3S2/FYP/Task 1 : Implement Transfer of Color Statistics/Result/'+'Resule'+str(i)+'.jpg',new_source)
+        cv2.imwrite('/Users/sur/OneDrive/OneDrive - Nanyang Technological University/COLLEGE/Y3/Y3S2/FYP/Task 1 : Implement Transfer of Color Statistics/Result/'+'Result'+str(i)+'.jpg',new_source)
         print('completed saving image ' + str(i))
 color_transfer()
