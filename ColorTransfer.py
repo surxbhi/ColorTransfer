@@ -93,7 +93,7 @@ def color_transfer():
                         src_point = 255
                     source_gray[row,col,k] = src_point
 
-        # overt image back to color
+        # Convert image back to color
         new_source = cv2.cvtColor(source_gray,cv2.COLOR_LAB2BGR)
         # Saving image
         print('saving image ' + str(i))
